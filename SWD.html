@@ -9761,19 +9761,177 @@ $Est.CO.BoWt
 <span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>                      <span class="at">Clusters =</span> cluster.var,</span>
 <span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>                      <span class="at">StartTimes =</span> first_treat,</span>
 <span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>                      <span class="at">ContrastFunc =</span> RDFunc))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$Est.SCSWT1
+[1] 0.1820411
+
+$Est.SCSWT2
+[1] 0.1863473
+
+$ContrastMat
+   Period Cluster StartTime  Contrast         MSPE ClustMin PdMin      SumMSPE
+1       1       1         1 0.1626268 1.000000e-08        4     1 2.000000e+09
+2       1       2         1 0.2071568 1.000000e-08        4     1 2.000000e+09
+3       1       3         1 0.1879920 1.000000e-08        4     1 2.000000e+09
+4       1       4         1 0.1364665 1.000000e-08        4     1 2.000000e+09
+5       2       1         1 0.1826260 1.000000e-08        8     1 2.000000e+09
+6       2       2         1 0.2372357 1.000000e-08        8     1 2.000000e+09
+7       2       3         1 0.2332935 1.000000e-08        8     1 2.000000e+09
+8       2       4         1 0.1705191 1.000000e-08        8     1 2.000000e+09
+9       2       5         2 0.1948310 1.000000e-08        8     2 1.500008e+09
+10      2       6         2 0.1316799 1.000000e-08        8     2 1.500008e+09
+11      2       7         2 0.1719729 1.000000e-08        8     2 1.500008e+09
+12      2       8         2 0.1913859 1.000000e-08        8     2 1.500008e+09
+13      3       1         1 0.1734207 1.000000e-08       12     1 2.000000e+09
+14      3       2         1 0.2447929 1.000000e-08       12     1 2.000000e+09
+15      3       3         1 0.2102336 1.000000e-08       12     1 2.000000e+09
+16      3       4         1 0.2109084 1.000000e-08       12     1 2.000000e+09
+17      3       5         2 0.1843264 1.000000e-08       12     2 1.500008e+09
+18      3       6         2 0.1485246 1.000000e-08       12     2 1.500008e+09
+19      3       7         2 0.1789729 1.000000e-08       12     2 1.500008e+09
+20      3       8         2 0.1956708 1.000000e-08       12     2 1.500008e+09
+21      3       9         3 0.1958348 2.695383e-05       12     3 1.001781e+08
+22      3      10         3 0.1688884 2.869502e-04       12     3 1.001781e+08
+23      3      11         3 0.2045493 1.000000e-08       12     3 1.001781e+08
+24      3      12         3 0.2119599 3.079504e-04       12     3 1.001781e+08
+25      4       1         1 0.2391645 1.000000e-08        8     1 2.000000e+09
+26      4       2         1 0.1240705 1.000000e-08        8     1 2.000000e+09
+27      4       3         1 0.1886303 1.000000e-08        8     1 2.000000e+09
+28      4       4         1 0.1656726 1.000000e-08        8     1 2.000000e+09
+29      4       5         2 0.1774243 1.000000e-08        8     2 1.500008e+09
+30      4       6         2 0.1588055 1.000000e-08        8     2 1.500008e+09
+31      4       7         2 0.1790083 1.000000e-08        8     2 1.500008e+09
+32      4       8         2 0.1977036 1.000000e-08        8     2 1.500008e+09
+33      4       9         3 0.1824963 5.058261e-05        8     3 1.001781e+08
+34      4      10         3 0.1725810 2.869287e-04        8     3 1.001781e+08
+35      4      11         3 0.1904200 1.016068e-05        8     3 1.001781e+08
+36      4      12         3 0.2111242 3.275940e-04        8     3 1.001781e+08
+37      4      13         4 0.1589815 2.414029e-05        8     2 7.946660e+04
+38      4      14         4 0.1693285 8.602333e-04        8     2 7.946660e+04
+39      4      15         4 0.1821254 3.489993e-04        8     2 7.946660e+04
+40      4      16         4 0.2365548 7.316464e-05        8     2 7.946660e+04
+41      5       1         1 0.1862372 1.000000e-08        4     1 2.000000e+09
+42      5       2         1 0.1708280 1.000000e-08        4     1 2.000000e+09
+43      5       3         1 0.1790146 1.000000e-08        4     1 2.000000e+09
+44      5       4         1 0.2141980 1.000000e-08        4     1 2.000000e+09
+45      5       5         2 0.1849057 1.000000e-08        4     2 1.500008e+09
+46      5       6         2 0.1600995 1.000000e-08        4     2 1.500008e+09
+47      5       7         2 0.1433376 1.000000e-08        4     2 1.500008e+09
+48      5       8         2 0.1491439 1.197957e-04        4     2 1.500008e+09
+49      5       9         3 0.1584115 8.714786e-04        4     3 1.001781e+08
+50      5      10         3 0.1934218 3.976987e-04        4     3 1.001781e+08
+51      5      11         3 0.1263955 2.558818e-04        4     3 1.001781e+08
+52      5      12         3 0.1609640 5.072942e-04        4     3 1.001781e+08
+53      5      13         4 0.1834231 6.835503e-05        4     2 7.946660e+04
+54      5      14         4 0.1723418 1.175250e-03        4     2 7.946660e+04
+55      5      15         4 0.1762047 4.877913e-04        4     2 7.946660e+04
+56      5      16         4 0.1409228 3.551100e-04        4     2 7.946660e+04
+57      5      17         5 0.2193635 6.984743e-04        4     1 9.783897e+03
+58      5      18         5 0.1292390 3.726776e-04        4     1 9.783897e+03
+59      5      19         5 0.1986279 4.316731e-04        4     1 9.783897e+03
+60      5      20         5 0.2054258 2.982980e-04        4     1 9.783897e+03
+            Wt2
+1  5.000000e-02
+2  5.000000e-02
+3  5.000000e-02
+4  5.000000e-02
+5  5.000000e-02
+6  5.000000e-02
+7  5.000000e-02
+8  5.000000e-02
+9  6.666630e-02
+10 6.666630e-02
+11 6.666630e-02
+12 6.666630e-02
+13 5.000000e-02
+14 5.000000e-02
+15 5.000000e-02
+16 5.000000e-02
+17 6.666630e-02
+18 6.666630e-02
+19 6.666630e-02
+20 6.666630e-02
+21 3.703453e-04
+22 3.478730e-05
+23 9.982222e-01
+24 3.241503e-05
+25 5.000000e-02
+26 5.000000e-02
+27 5.000000e-02
+28 5.000000e-02
+29 6.666630e-02
+30 6.666630e-02
+31 6.666630e-02
+32 6.666630e-02
+33 1.973449e-04
+34 3.478991e-05
+35 9.824364e-04
+36 3.047132e-05
+37 5.212821e-01
+38 1.462848e-02
+39 3.605710e-02
+40 1.719943e-01
+41 5.000000e-02
+42 5.000000e-02
+43 5.000000e-02
+44 5.000000e-02
+45 6.666630e-02
+46 6.666630e-02
+47 6.666630e-02
+48 5.564999e-06
+49 1.145435e-05
+50 2.509996e-05
+51 3.901106e-05
+52 1.967738e-05
+53 1.840962e-01
+54 1.070743e-02
+55 2.579772e-02
+56 3.543663e-02
+57 1.463315e-01
+58 2.742552e-01
+59 2.367735e-01
+60 3.426398e-01</code></pre>
+</div>
 </div>
 </section>
 <section id="crossover-synthetic-control-method-from-kennedy-shaffer-et-al.-2019" class="level3">
 <h3 class="anchored" data-anchor-id="crossover-synthetic-control-method-from-kennedy-shaffer-et-al.-2019">Crossover Synthetic Control Method from Kennedy-Shaffer et al. 2019</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">with</span>(clust_level_outcomes, </span>
-<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>     <span class="fu">COSC.Effect.Est</span>(<span class="at">Periods =</span> time.var, </span>
-<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>                     <span class="at">Outcomes =</span> cout, </span>
-<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>                     <span class="at">Clusters =</span> cluster.var,</span>
-<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>                     <span class="at">StartTimes =</span> first_treat,</span>
-<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>                     <span class="at">ContrastFunc =</span> RDFunc))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<pre><code>Error: object &#39;clust_level_outcomes&#39; not found</code></pre>
+<div class="sourceCode cell-code" id="cb39"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">with</span>(clust_level_outcomes, </span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>     <span class="fu">COSC.Effect.Est</span>(<span class="at">Periods =</span> time.var, </span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>                     <span class="at">Outcomes =</span> cout, </span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>                     <span class="at">Clusters =</span> cluster.var,</span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>                     <span class="at">StartTimes =</span> first_treat,</span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a>                     <span class="at">ContrastFunc =</span> RDFunc))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>$Est.COSC1
+[1] 0.1851597
+
+$Est.COSC2
+[1] 0.1811478
+
+$ContrastMat
+   Period Cluster  Contrast         MSPE ClustMin      SumMSPE          Wt2
+1       1       1 0.1715714 1.000000e-08        4 400000000.00 2.500000e-01
+2       1       2 0.1972857 1.000000e-08        4 400000000.00 2.500000e-01
+3       1       3 0.1630000 1.000000e-08        4 400000000.00 2.500000e-01
+4       1       4 0.1201429 1.000000e-08        4 400000000.00 2.500000e-01
+5       2       5 0.1759705 1.000000e-08        4 400000000.00 2.500000e-01
+6       2       6 0.1011419 1.000000e-08        4 400000000.00 2.500000e-01
+7       2       7 0.1775684 1.000000e-08        4 400000000.00 2.500000e-01
+8       2       8 0.1967713 1.000000e-08        4 400000000.00 2.500000e-01
+9       3       9 0.1828571 6.938806e-05        4 100016630.15 1.440931e-04
+10      3      10 0.1846411 9.443866e-04        4 100016630.15 1.058712e-05
+11      3      11 0.2060426 1.000000e-08        4 100016630.15 9.998337e-01
+12      3      12 0.2445516 8.623962e-04        4 100016630.15 1.159367e-05
+13      4      13 0.1652962 1.000000e-08        4 200015170.66 4.999621e-01
+14      4      14 0.1885873 1.000000e-08        4 200015170.66 4.999621e-01
+15      4      15 0.2112272 6.552366e-04        4 200015170.66 7.630253e-06
+16      4      16 0.2515386 7.328964e-05        4 200015170.66 6.821729e-05
+17      5      17 0.2115832 1.382515e-03        4     20460.41 3.535214e-02
+18      5      18 0.1333999 1.000811e-03        4     20460.41 4.883526e-02
+19      5      19 0.2236186 4.390892e-04        4     20460.41 1.113097e-01
+20      5      20 0.1963995 6.075164e-05        4     20460.41 8.045029e-01</code></pre>
 </div>
 </div>
 </section>
@@ -9784,19 +9942,19 @@ $Est.CO.BoWt
 <section id="generalized-linear-model-with-robust-standard-errors" class="level2">
 <h2 class="anchored" data-anchor-id="generalized-linear-model-with-robust-standard-errors">Generalized Linear Model with Robust Standard Errors</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sandwich)</span>
-<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lmtest)</span>
-<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>fm2 <span class="ot">&lt;-</span> <span class="fu">glm</span>(response.var <span class="sc">~</span> tx.fact <span class="sc">+</span> time.fact, </span>
-<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">family =</span> binomial, <span class="at">data =</span> DT)</span>
-<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>fm2_robust_clustered <span class="ot">&lt;-</span> <span class="fu">coeftest</span>(fm2,</span>
-<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">vcov =</span> vcovCL,</span>
-<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">type =</span> <span class="st">&quot;HC1&quot;</span>,</span>
-<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">cluster =</span> <span class="sc">~</span>cluster.var)</span>
-<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a><span class="fu">tidy</span>(fm2_robust_clustered, <span class="at">conf.int =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
-<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a>  kableExtra<span class="sc">::</span><span class="fu">kbl</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sandwich)</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(lmtest)</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>fm2 <span class="ot">&lt;-</span> <span class="fu">glm</span>(response.var <span class="sc">~</span> tx.fact <span class="sc">+</span> time.fact, </span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">family =</span> binomial, <span class="at">data =</span> DT)</span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>fm2_robust_clustered <span class="ot">&lt;-</span> <span class="fu">coeftest</span>(fm2,</span>
+<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">vcov =</span> vcovCL,</span>
+<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">type =</span> <span class="st">&quot;HC1&quot;</span>,</span>
+<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a>                                 <span class="at">cluster =</span> <span class="sc">~</span>cluster.var)</span>
+<span id="cb41-11"><a href="#cb41-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-12"><a href="#cb41-12" aria-hidden="true" tabindex="-1"></a><span class="fu">tidy</span>(fm2_robust_clustered, <span class="at">conf.int =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
+<span id="cb41-13"><a href="#cb41-13" aria-hidden="true" tabindex="-1"></a>  kableExtra<span class="sc">::</span><span class="fu">kbl</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small" data-quarto-postprocess="true">
 <thead>
@@ -9899,94 +10057,94 @@ $Est.CO.BoWt
 <p><a href="https://journals.sagepub.com/doi/10.1177/1536867X19893624">Thompson, J., Davey, C., Hayes, R., Hargreaves, J., &amp; Fielding, K. (2019). Permutation tests for stepped-wedge cluster-randomized trials. <em>The Stata Journal</em>, 19(4), 803-819.</a></p>
 <p><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8451">Kennedy‐Shaffer, L., De Gruttola, V., &amp; Lipsitch, M. (2020). Novel methods for the analysis of stepped wedge cluster randomized trials. <em>Statistics in Medicine</em>, 39(7), 815-844.</a></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="co"># From supplementary material for Thompson et al., 2018</span></span>
-<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>cluster.summary <span class="ot">&lt;-</span> <span class="cf">function</span>(data, cluster, group, time, rx, summary, null) {</span>
-<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a>  f.effect <span class="ot">&lt;-</span> <span class="cf">function</span>(x){</span>
-<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Aggregate data by time and intervention condition</span></span>
-<span id="cb41-8"><a href="#cb41-8" aria-hidden="true" tabindex="-1"></a>    slices.long <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(summary <span class="sc">~</span> time <span class="sc">+</span> rx, <span class="at">data =</span> x,</span>
-<span id="cb41-9"><a href="#cb41-9" aria-hidden="true" tabindex="-1"></a>                             <span class="at">FUN =</span> <span class="cf">function</span>(X) <span class="fu">c</span>(<span class="at">mean =</span> <span class="fu">mean</span>(X, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb41-10"><a href="#cb41-10" aria-hidden="true" tabindex="-1"></a>                                                 <span class="at">n =</span> <span class="fu">sum</span>(<span class="sc">!</span><span class="fu">is.na</span>(X)),</span>
-<span id="cb41-11"><a href="#cb41-11" aria-hidden="true" tabindex="-1"></a>                                                 <span class="at">var =</span> <span class="fu">var</span>(X, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)))</span>
-<span id="cb41-12"><a href="#cb41-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-13"><a href="#cb41-13" aria-hidden="true" tabindex="-1"></a>    slices.long<span class="sc">$</span>mean <span class="ot">&lt;-</span> slices.long<span class="sc">$</span>summary[,<span class="dv">1</span>]</span>
-<span id="cb41-14"><a href="#cb41-14" aria-hidden="true" tabindex="-1"></a>    slices.long<span class="sc">$</span>n <span class="ot">&lt;-</span> slices.long<span class="sc">$</span>summary[,<span class="dv">2</span>]</span>
-<span id="cb41-15"><a href="#cb41-15" aria-hidden="true" tabindex="-1"></a>    slices.long<span class="sc">$</span>var <span class="ot">&lt;-</span> slices.long<span class="sc">$</span>summary[,<span class="dv">3</span>]</span>
-<span id="cb41-16"><a href="#cb41-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-17"><a href="#cb41-17" aria-hidden="true" tabindex="-1"></a>    <span class="co">#reshape so one row per time slice</span></span>
-<span id="cb41-18"><a href="#cb41-18" aria-hidden="true" tabindex="-1"></a>    slices <span class="ot">&lt;-</span> <span class="fu">reshape</span>(<span class="at">direction =</span> <span class="st">&quot;wide&quot;</span>,</span>
-<span id="cb41-19"><a href="#cb41-19" aria-hidden="true" tabindex="-1"></a>                      <span class="at">data =</span> slices.long[,<span class="fu">c</span>(<span class="st">&quot;time&quot;</span>, <span class="st">&quot;rx&quot;</span>, <span class="st">&quot;mean&quot;</span>, <span class="st">&quot;n&quot;</span>, <span class="st">&quot;var&quot;</span>)],</span>
-<span id="cb41-20"><a href="#cb41-20" aria-hidden="true" tabindex="-1"></a>                      <span class="at">v.names =</span> <span class="fu">c</span>(<span class="st">&quot;mean&quot;</span>, <span class="st">&quot;n&quot;</span>, <span class="st">&quot;var&quot;</span>),</span>
-<span id="cb41-21"><a href="#cb41-21" aria-hidden="true" tabindex="-1"></a>                      <span class="at">idvar =</span> <span class="fu">c</span>(<span class="st">&quot;time&quot;</span>),</span>
-<span id="cb41-22"><a href="#cb41-22" aria-hidden="true" tabindex="-1"></a>                      <span class="at">timevar =</span> <span class="st">&quot;rx&quot;</span>)</span>
-<span id="cb41-23"><a href="#cb41-23" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-24"><a href="#cb41-24" aria-hidden="true" tabindex="-1"></a>    <span class="co">#calculate difference</span></span>
-<span id="cb41-25"><a href="#cb41-25" aria-hidden="true" tabindex="-1"></a>    slices<span class="sc">$</span>diff <span class="ot">&lt;-</span> slices<span class="sc">$</span>mean<span class="fl">.1</span> <span class="sc">-</span> slices<span class="sc">$</span>mean<span class="fl">.0</span></span>
-<span id="cb41-26"><a href="#cb41-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-27"><a href="#cb41-27" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Calculate a weight assuming the same variance in both arms</span></span>
-<span id="cb41-28"><a href="#cb41-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-29"><a href="#cb41-29" aria-hidden="true" tabindex="-1"></a>    slices<span class="sc">$</span>wgt <span class="ot">&lt;-</span> ( (((slices<span class="sc">$</span>n<span class="fl">.0</span> <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">*</span> slices<span class="sc">$</span>var<span class="fl">.0</span> <span class="sc">+</span> (slices<span class="sc">$</span>n<span class="fl">.1</span> <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">*</span> slices<span class="sc">$</span>var<span class="fl">.1</span>) <span class="sc">/</span></span>
-<span id="cb41-30"><a href="#cb41-30" aria-hidden="true" tabindex="-1"></a>                       (slices<span class="sc">$</span>n<span class="fl">.0</span> <span class="sc">+</span> slices<span class="sc">$</span>n<span class="fl">.1</span> <span class="sc">-</span> <span class="dv">2</span>)) <span class="sc">*</span> (<span class="dv">1</span><span class="sc">/</span>slices<span class="sc">$</span>n<span class="fl">.0</span> <span class="sc">+</span> <span class="dv">1</span><span class="sc">/</span>slices<span class="sc">$</span>n<span class="fl">.1</span>) )<span class="sc">^-</span><span class="dv">1</span></span>
-<span id="cb41-31"><a href="#cb41-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-32"><a href="#cb41-32" aria-hidden="true" tabindex="-1"></a>    <span class="fu">weighted.mean</span>(slices<span class="sc">$</span>diff, slices<span class="sc">$</span>wgt, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb41-33"><a href="#cb41-33" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb41-34"><a href="#cb41-34" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-35"><a href="#cb41-35" aria-hidden="true" tabindex="-1"></a>  f.permute <span class="ot">&lt;-</span> <span class="cf">function</span>(y, design) {</span>
-<span id="cb41-36"><a href="#cb41-36" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-37"><a href="#cb41-37" aria-hidden="true" tabindex="-1"></a>    design<span class="sc">$</span>cluster <span class="ot">&lt;-</span> <span class="fu">sample</span>(design<span class="sc">$</span>cluster, <span class="at">replace =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb41-38"><a href="#cb41-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-39"><a href="#cb41-39" aria-hidden="true" tabindex="-1"></a>    design.long <span class="ot">&lt;-</span> <span class="fu">reshape</span>(design,</span>
-<span id="cb41-40"><a href="#cb41-40" aria-hidden="true" tabindex="-1"></a>                           <span class="at">direction =</span> <span class="st">&quot;long&quot;</span>,</span>
-<span id="cb41-41"><a href="#cb41-41" aria-hidden="true" tabindex="-1"></a>                           <span class="at">idvar =</span> <span class="fu">c</span>(<span class="st">&quot;cluster&quot;</span>, <span class="st">&quot;group&quot;</span>))</span>
-<span id="cb41-42"><a href="#cb41-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-43"><a href="#cb41-43" aria-hidden="true" tabindex="-1"></a>    permuted.data <span class="ot">&lt;-</span> <span class="fu">merge</span>(y[, <span class="fu">c</span>(<span class="st">&quot;cluster&quot;</span>, <span class="st">&quot;time&quot;</span>, <span class="st">&quot;summary&quot;</span>)],</span>
-<span id="cb41-44"><a href="#cb41-44" aria-hidden="true" tabindex="-1"></a>                           design.long,</span>
-<span id="cb41-45"><a href="#cb41-45" aria-hidden="true" tabindex="-1"></a>                           <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;cluster&quot;</span>, <span class="st">&quot;time&quot;</span>))</span>
-<span id="cb41-46"><a href="#cb41-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-47"><a href="#cb41-47" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(<span class="fu">f.effect</span>(permuted.data))</span>
-<span id="cb41-48"><a href="#cb41-48" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb41-49"><a href="#cb41-49" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-50"><a href="#cb41-50" aria-hidden="true" tabindex="-1"></a>  dataset <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">cluster =</span> <span class="fu">eval</span>(<span class="fu">substitute</span>(cluster), data),</span>
-<span id="cb41-51"><a href="#cb41-51" aria-hidden="true" tabindex="-1"></a>                        <span class="at">group =</span> <span class="fu">eval</span>(<span class="fu">substitute</span>(group), data),</span>
-<span id="cb41-52"><a href="#cb41-52" aria-hidden="true" tabindex="-1"></a>                        <span class="at">time =</span> <span class="fu">eval</span>(<span class="fu">substitute</span>(time), data),</span>
-<span id="cb41-53"><a href="#cb41-53" aria-hidden="true" tabindex="-1"></a>                        <span class="at">rx =</span> <span class="fu">as.numeric</span>(<span class="fu">eval</span>(<span class="fu">substitute</span>(rx),data)),</span>
-<span id="cb41-54"><a href="#cb41-54" aria-hidden="true" tabindex="-1"></a>                        <span class="at">summary =</span> <span class="fu">eval</span>(<span class="fu">substitute</span>(summary),data))</span>
-<span id="cb41-55"><a href="#cb41-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-56"><a href="#cb41-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-57"><a href="#cb41-57" aria-hidden="true" tabindex="-1"></a>  dataset<span class="sc">$</span>summary <span class="ot">&lt;-</span> dataset<span class="sc">$</span>summary <span class="sc">-</span> null <span class="sc">*</span> dataset<span class="sc">$</span>rx</span>
-<span id="cb41-58"><a href="#cb41-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-59"><a href="#cb41-59" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-60"><a href="#cb41-60" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Calculate observed effect</span></span>
-<span id="cb41-61"><a href="#cb41-61" aria-hidden="true" tabindex="-1"></a>  mean.effect <span class="ot">&lt;-</span> <span class="fu">f.effect</span>(dataset)</span>
-<span id="cb41-62"><a href="#cb41-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-63"><a href="#cb41-63" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Create a dataset of the design</span></span>
-<span id="cb41-64"><a href="#cb41-64" aria-hidden="true" tabindex="-1"></a>  design <span class="ot">&lt;-</span> <span class="fu">reshape</span>(<span class="at">direction =</span> <span class="st">&quot;wide&quot;</span>,</span>
-<span id="cb41-65"><a href="#cb41-65" aria-hidden="true" tabindex="-1"></a>                    <span class="at">idvar =</span> <span class="fu">c</span>(<span class="st">&quot;cluster&quot;</span>, <span class="st">&quot;group&quot;</span>),</span>
-<span id="cb41-66"><a href="#cb41-66" aria-hidden="true" tabindex="-1"></a>                    <span class="at">timevar =</span> <span class="st">&quot;time&quot;</span>,</span>
-<span id="cb41-67"><a href="#cb41-67" aria-hidden="true" tabindex="-1"></a>                    <span class="at">v.names =</span> <span class="st">&quot;rx&quot;</span>,</span>
-<span id="cb41-68"><a href="#cb41-68" aria-hidden="true" tabindex="-1"></a>                    <span class="at">data =</span> <span class="fu">unique</span>(dataset[,<span class="fu">c</span>(<span class="st">&quot;cluster&quot;</span>,<span class="st">&quot;group&quot;</span>,<span class="st">&quot;rx&quot;</span>,<span class="st">&quot;time&quot;</span>)]))</span>
-<span id="cb41-69"><a href="#cb41-69" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-70"><a href="#cb41-70" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Calculate p value under null = 0</span></span>
-<span id="cb41-71"><a href="#cb41-71" aria-hidden="true" tabindex="-1"></a>  permutations <span class="ot">&lt;-</span> <span class="fu">replicate</span>(<span class="dv">100</span>, <span class="fu">f.permute</span>(dataset, design), <span class="at">simplify =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb41-72"><a href="#cb41-72" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-73"><a href="#cb41-73" aria-hidden="true" tabindex="-1"></a>  p <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="fu">abs</span>(permutations) <span class="sc">&gt;</span> <span class="fu">abs</span>(mean.effect)) <span class="sc">/</span> <span class="dv">100</span></span>
-<span id="cb41-74"><a href="#cb41-74" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-75"><a href="#cb41-75" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-76"><a href="#cb41-76" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-77"><a href="#cb41-77" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(<span class="fu">c</span>(mean.effect, p))</span>
-<span id="cb41-78"><a href="#cb41-78" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb41-79"><a href="#cb41-79" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="co"># From supplementary material for Thompson et al., 2018</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>cluster.summary <span class="ot">&lt;-</span> <span class="cf">function</span>(data, cluster, group, time, rx, summary, null) {</span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>  f.effect <span class="ot">&lt;-</span> <span class="cf">function</span>(x){</span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Aggregate data by time and intervention condition</span></span>
+<span id="cb42-8"><a href="#cb42-8" aria-hidden="true" tabindex="-1"></a>    slices.long <span class="ot">&lt;-</span> <span class="fu">aggregate</span>(summary <span class="sc">~</span> time <span class="sc">+</span> rx, <span class="at">data =</span> x,</span>
+<span id="cb42-9"><a href="#cb42-9" aria-hidden="true" tabindex="-1"></a>                             <span class="at">FUN =</span> <span class="cf">function</span>(X) <span class="fu">c</span>(<span class="at">mean =</span> <span class="fu">mean</span>(X, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb42-10"><a href="#cb42-10" aria-hidden="true" tabindex="-1"></a>                                                 <span class="at">n =</span> <span class="fu">sum</span>(<span class="sc">!</span><span class="fu">is.na</span>(X)),</span>
+<span id="cb42-11"><a href="#cb42-11" aria-hidden="true" tabindex="-1"></a>                                                 <span class="at">var =</span> <span class="fu">var</span>(X, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)))</span>
+<span id="cb42-12"><a href="#cb42-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-13"><a href="#cb42-13" aria-hidden="true" tabindex="-1"></a>    slices.long<span class="sc">$</span>mean <span class="ot">&lt;-</span> slices.long<span class="sc">$</span>summary[,<span class="dv">1</span>]</span>
+<span id="cb42-14"><a href="#cb42-14" aria-hidden="true" tabindex="-1"></a>    slices.long<span class="sc">$</span>n <span class="ot">&lt;-</span> slices.long<span class="sc">$</span>summary[,<span class="dv">2</span>]</span>
+<span id="cb42-15"><a href="#cb42-15" aria-hidden="true" tabindex="-1"></a>    slices.long<span class="sc">$</span>var <span class="ot">&lt;-</span> slices.long<span class="sc">$</span>summary[,<span class="dv">3</span>]</span>
+<span id="cb42-16"><a href="#cb42-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-17"><a href="#cb42-17" aria-hidden="true" tabindex="-1"></a>    <span class="co">#reshape so one row per time slice</span></span>
+<span id="cb42-18"><a href="#cb42-18" aria-hidden="true" tabindex="-1"></a>    slices <span class="ot">&lt;-</span> <span class="fu">reshape</span>(<span class="at">direction =</span> <span class="st">&quot;wide&quot;</span>,</span>
+<span id="cb42-19"><a href="#cb42-19" aria-hidden="true" tabindex="-1"></a>                      <span class="at">data =</span> slices.long[,<span class="fu">c</span>(<span class="st">&quot;time&quot;</span>, <span class="st">&quot;rx&quot;</span>, <span class="st">&quot;mean&quot;</span>, <span class="st">&quot;n&quot;</span>, <span class="st">&quot;var&quot;</span>)],</span>
+<span id="cb42-20"><a href="#cb42-20" aria-hidden="true" tabindex="-1"></a>                      <span class="at">v.names =</span> <span class="fu">c</span>(<span class="st">&quot;mean&quot;</span>, <span class="st">&quot;n&quot;</span>, <span class="st">&quot;var&quot;</span>),</span>
+<span id="cb42-21"><a href="#cb42-21" aria-hidden="true" tabindex="-1"></a>                      <span class="at">idvar =</span> <span class="fu">c</span>(<span class="st">&quot;time&quot;</span>),</span>
+<span id="cb42-22"><a href="#cb42-22" aria-hidden="true" tabindex="-1"></a>                      <span class="at">timevar =</span> <span class="st">&quot;rx&quot;</span>)</span>
+<span id="cb42-23"><a href="#cb42-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-24"><a href="#cb42-24" aria-hidden="true" tabindex="-1"></a>    <span class="co">#calculate difference</span></span>
+<span id="cb42-25"><a href="#cb42-25" aria-hidden="true" tabindex="-1"></a>    slices<span class="sc">$</span>diff <span class="ot">&lt;-</span> slices<span class="sc">$</span>mean<span class="fl">.1</span> <span class="sc">-</span> slices<span class="sc">$</span>mean<span class="fl">.0</span></span>
+<span id="cb42-26"><a href="#cb42-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-27"><a href="#cb42-27" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Calculate a weight assuming the same variance in both arms</span></span>
+<span id="cb42-28"><a href="#cb42-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-29"><a href="#cb42-29" aria-hidden="true" tabindex="-1"></a>    slices<span class="sc">$</span>wgt <span class="ot">&lt;-</span> ( (((slices<span class="sc">$</span>n<span class="fl">.0</span> <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">*</span> slices<span class="sc">$</span>var<span class="fl">.0</span> <span class="sc">+</span> (slices<span class="sc">$</span>n<span class="fl">.1</span> <span class="sc">-</span> <span class="dv">1</span>) <span class="sc">*</span> slices<span class="sc">$</span>var<span class="fl">.1</span>) <span class="sc">/</span></span>
+<span id="cb42-30"><a href="#cb42-30" aria-hidden="true" tabindex="-1"></a>                       (slices<span class="sc">$</span>n<span class="fl">.0</span> <span class="sc">+</span> slices<span class="sc">$</span>n<span class="fl">.1</span> <span class="sc">-</span> <span class="dv">2</span>)) <span class="sc">*</span> (<span class="dv">1</span><span class="sc">/</span>slices<span class="sc">$</span>n<span class="fl">.0</span> <span class="sc">+</span> <span class="dv">1</span><span class="sc">/</span>slices<span class="sc">$</span>n<span class="fl">.1</span>) )<span class="sc">^-</span><span class="dv">1</span></span>
+<span id="cb42-31"><a href="#cb42-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-32"><a href="#cb42-32" aria-hidden="true" tabindex="-1"></a>    <span class="fu">weighted.mean</span>(slices<span class="sc">$</span>diff, slices<span class="sc">$</span>wgt, <span class="at">na.rm =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb42-33"><a href="#cb42-33" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb42-34"><a href="#cb42-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-35"><a href="#cb42-35" aria-hidden="true" tabindex="-1"></a>  f.permute <span class="ot">&lt;-</span> <span class="cf">function</span>(y, design) {</span>
+<span id="cb42-36"><a href="#cb42-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-37"><a href="#cb42-37" aria-hidden="true" tabindex="-1"></a>    design<span class="sc">$</span>cluster <span class="ot">&lt;-</span> <span class="fu">sample</span>(design<span class="sc">$</span>cluster, <span class="at">replace =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb42-38"><a href="#cb42-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-39"><a href="#cb42-39" aria-hidden="true" tabindex="-1"></a>    design.long <span class="ot">&lt;-</span> <span class="fu">reshape</span>(design,</span>
+<span id="cb42-40"><a href="#cb42-40" aria-hidden="true" tabindex="-1"></a>                           <span class="at">direction =</span> <span class="st">&quot;long&quot;</span>,</span>
+<span id="cb42-41"><a href="#cb42-41" aria-hidden="true" tabindex="-1"></a>                           <span class="at">idvar =</span> <span class="fu">c</span>(<span class="st">&quot;cluster&quot;</span>, <span class="st">&quot;group&quot;</span>))</span>
+<span id="cb42-42"><a href="#cb42-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-43"><a href="#cb42-43" aria-hidden="true" tabindex="-1"></a>    permuted.data <span class="ot">&lt;-</span> <span class="fu">merge</span>(y[, <span class="fu">c</span>(<span class="st">&quot;cluster&quot;</span>, <span class="st">&quot;time&quot;</span>, <span class="st">&quot;summary&quot;</span>)],</span>
+<span id="cb42-44"><a href="#cb42-44" aria-hidden="true" tabindex="-1"></a>                           design.long,</span>
+<span id="cb42-45"><a href="#cb42-45" aria-hidden="true" tabindex="-1"></a>                           <span class="at">by =</span> <span class="fu">c</span>(<span class="st">&quot;cluster&quot;</span>, <span class="st">&quot;time&quot;</span>))</span>
+<span id="cb42-46"><a href="#cb42-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-47"><a href="#cb42-47" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(<span class="fu">f.effect</span>(permuted.data))</span>
+<span id="cb42-48"><a href="#cb42-48" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb42-49"><a href="#cb42-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-50"><a href="#cb42-50" aria-hidden="true" tabindex="-1"></a>  dataset <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">cluster =</span> <span class="fu">eval</span>(<span class="fu">substitute</span>(cluster), data),</span>
+<span id="cb42-51"><a href="#cb42-51" aria-hidden="true" tabindex="-1"></a>                        <span class="at">group =</span> <span class="fu">eval</span>(<span class="fu">substitute</span>(group), data),</span>
+<span id="cb42-52"><a href="#cb42-52" aria-hidden="true" tabindex="-1"></a>                        <span class="at">time =</span> <span class="fu">eval</span>(<span class="fu">substitute</span>(time), data),</span>
+<span id="cb42-53"><a href="#cb42-53" aria-hidden="true" tabindex="-1"></a>                        <span class="at">rx =</span> <span class="fu">as.numeric</span>(<span class="fu">eval</span>(<span class="fu">substitute</span>(rx),data)),</span>
+<span id="cb42-54"><a href="#cb42-54" aria-hidden="true" tabindex="-1"></a>                        <span class="at">summary =</span> <span class="fu">eval</span>(<span class="fu">substitute</span>(summary),data))</span>
+<span id="cb42-55"><a href="#cb42-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-56"><a href="#cb42-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-57"><a href="#cb42-57" aria-hidden="true" tabindex="-1"></a>  dataset<span class="sc">$</span>summary <span class="ot">&lt;-</span> dataset<span class="sc">$</span>summary <span class="sc">-</span> null <span class="sc">*</span> dataset<span class="sc">$</span>rx</span>
+<span id="cb42-58"><a href="#cb42-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-59"><a href="#cb42-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-60"><a href="#cb42-60" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Calculate observed effect</span></span>
+<span id="cb42-61"><a href="#cb42-61" aria-hidden="true" tabindex="-1"></a>  mean.effect <span class="ot">&lt;-</span> <span class="fu">f.effect</span>(dataset)</span>
+<span id="cb42-62"><a href="#cb42-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-63"><a href="#cb42-63" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Create a dataset of the design</span></span>
+<span id="cb42-64"><a href="#cb42-64" aria-hidden="true" tabindex="-1"></a>  design <span class="ot">&lt;-</span> <span class="fu">reshape</span>(<span class="at">direction =</span> <span class="st">&quot;wide&quot;</span>,</span>
+<span id="cb42-65"><a href="#cb42-65" aria-hidden="true" tabindex="-1"></a>                    <span class="at">idvar =</span> <span class="fu">c</span>(<span class="st">&quot;cluster&quot;</span>, <span class="st">&quot;group&quot;</span>),</span>
+<span id="cb42-66"><a href="#cb42-66" aria-hidden="true" tabindex="-1"></a>                    <span class="at">timevar =</span> <span class="st">&quot;time&quot;</span>,</span>
+<span id="cb42-67"><a href="#cb42-67" aria-hidden="true" tabindex="-1"></a>                    <span class="at">v.names =</span> <span class="st">&quot;rx&quot;</span>,</span>
+<span id="cb42-68"><a href="#cb42-68" aria-hidden="true" tabindex="-1"></a>                    <span class="at">data =</span> <span class="fu">unique</span>(dataset[,<span class="fu">c</span>(<span class="st">&quot;cluster&quot;</span>,<span class="st">&quot;group&quot;</span>,<span class="st">&quot;rx&quot;</span>,<span class="st">&quot;time&quot;</span>)]))</span>
+<span id="cb42-69"><a href="#cb42-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-70"><a href="#cb42-70" aria-hidden="true" tabindex="-1"></a>  <span class="co">#Calculate p value under null = 0</span></span>
+<span id="cb42-71"><a href="#cb42-71" aria-hidden="true" tabindex="-1"></a>  permutations <span class="ot">&lt;-</span> <span class="fu">replicate</span>(<span class="dv">100</span>, <span class="fu">f.permute</span>(dataset, design), <span class="at">simplify =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb42-72"><a href="#cb42-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-73"><a href="#cb42-73" aria-hidden="true" tabindex="-1"></a>  p <span class="ot">&lt;-</span> <span class="fu">sum</span>(<span class="fu">abs</span>(permutations) <span class="sc">&gt;</span> <span class="fu">abs</span>(mean.effect)) <span class="sc">/</span> <span class="dv">100</span></span>
+<span id="cb42-74"><a href="#cb42-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-75"><a href="#cb42-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-76"><a href="#cb42-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-77"><a href="#cb42-77" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(<span class="fu">c</span>(mean.effect, p))</span>
+<span id="cb42-78"><a href="#cb42-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb42-79"><a href="#cb42-79" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb42"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cluster.summary</span>(<span class="at">data =</span> DT, </span>
-<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>                <span class="at">cluster =</span> DT<span class="sc">$</span>cluster.var, </span>
-<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>                <span class="at">group =</span> DT<span class="sc">$</span>first_treat, </span>
-<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>                <span class="at">time =</span> DT<span class="sc">$</span>time.var, </span>
-<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>                <span class="at">rx =</span> DT<span class="sc">$</span>tx.var, </span>
-<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a>                <span class="at">summary =</span> DT<span class="sc">$</span>response.var, </span>
-<span id="cb42-7"><a href="#cb42-7" aria-hidden="true" tabindex="-1"></a>                <span class="at">null =</span> <span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cluster.summary</span>(<span class="at">data =</span> DT, </span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>                <span class="at">cluster =</span> DT<span class="sc">$</span>cluster.var, </span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>                <span class="at">group =</span> DT<span class="sc">$</span>first_treat, </span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>                <span class="at">time =</span> DT<span class="sc">$</span>time.var, </span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>                <span class="at">rx =</span> DT<span class="sc">$</span>tx.var, </span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>                <span class="at">summary =</span> DT<span class="sc">$</span>response.var, </span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>                <span class="at">null =</span> <span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 0.2002211 0.0000000</code></pre>
 </div>
@@ -9996,16 +10154,16 @@ $Est.CO.BoWt
 <h2 class="anchored" data-anchor-id="callaway-santanna-2021-difference-in-differences-with-multiple-time-periods">Callaway &amp; Sant’Anna (2021) Difference-in-Differences with Multiple Time Periods</h2>
 <p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0304407620303948">Callaway, Brantly and Pedro H.C. Sant’Anna. Difference-in-Differences with Multiple Time Periods. <em>Journal of Econometrics</em>, Vol. 225, No. 2, pp. 200-230, 2021.</a></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb44"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>fm_csdid <span class="ot">&lt;-</span> <span class="fu">att_gt</span>(<span class="at">yname =</span> <span class="st">&quot;response.var&quot;</span>,</span>
-<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>                   <span class="at">tname =</span> <span class="st">&quot;time.var&quot;</span>,</span>
-<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>                   <span class="at">idname =</span> <span class="st">&quot;cluster.var&quot;</span>,</span>
-<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>                   <span class="at">gname =</span> <span class="st">&quot;first_treat&quot;</span>,</span>
-<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>                   <span class="at">xformla =</span> <span class="sc">~</span> <span class="dv">1</span>,</span>
-<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>                   <span class="at">panel =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a>                   <span class="at">control_group =</span> <span class="st">&quot;notyettreated&quot;</span>,</span>
-<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a>                   <span class="at">data =</span> DT)</span>
-<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb44-10"><a href="#cb44-10" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fm_csdid)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb45"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>fm_csdid <span class="ot">&lt;-</span> <span class="fu">att_gt</span>(<span class="at">yname =</span> <span class="st">&quot;response.var&quot;</span>,</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>                   <span class="at">tname =</span> <span class="st">&quot;time.var&quot;</span>,</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>                   <span class="at">idname =</span> <span class="st">&quot;cluster.var&quot;</span>,</span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>                   <span class="at">gname =</span> <span class="st">&quot;first_treat&quot;</span>,</span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>                   <span class="at">xformla =</span> <span class="sc">~</span> <span class="dv">1</span>,</span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a>                   <span class="at">panel =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb45-7"><a href="#cb45-7" aria-hidden="true" tabindex="-1"></a>                   <span class="at">control_group =</span> <span class="st">&quot;notyettreated&quot;</span>,</span>
+<span id="cb45-8"><a href="#cb45-8" aria-hidden="true" tabindex="-1"></a>                   <span class="at">data =</span> DT)</span>
+<span id="cb45-9"><a href="#cb45-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb45-10"><a href="#cb45-10" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(fm_csdid)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -10053,9 +10211,9 @@ Estimation Method:  Doubly Robust</code></pre>
 <section id="risk-difference-as-a-weighted-average-of-all-group-time-average-treatment-effects" class="level3">
 <h3 class="anchored" data-anchor-id="risk-difference-as-a-weighted-average-of-all-group-time-average-treatment-effects">Risk difference as a weighted average of all group-time average treatment effects</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb46"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>agg.simple <span class="ot">&lt;-</span> <span class="fu">aggte</span>(fm_csdid, <span class="at">type =</span> <span class="st">&quot;simple&quot;</span>)</span>
-<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(agg.simple)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb47"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a>agg.simple <span class="ot">&lt;-</span> <span class="fu">aggte</span>(fm_csdid, <span class="at">type =</span> <span class="st">&quot;simple&quot;</span>)</span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(agg.simple)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -10080,20 +10238,20 @@ Estimation Method:  Doubly Robust</code></pre>
 <section id="analysis-in-stata" class="level1">
 <h1>Analysis in Stata</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb48"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(DT) <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">&quot;</span><span class="sc">\\</span><span class="st">.&quot;</span>, <span class="st">&quot;_&quot;</span>, <span class="fu">names</span>(DT))</span>
-<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>haven<span class="sc">::</span><span class="fu">write_dta</span>(DT, <span class="at">path =</span> <span class="st">&quot;swtDT.dta&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(DT) <span class="ot">&lt;-</span> <span class="fu">gsub</span>(<span class="st">&quot;</span><span class="sc">\\</span><span class="st">.&quot;</span>, <span class="st">&quot;_&quot;</span>, <span class="fu">names</span>(DT))</span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>haven<span class="sc">::</span><span class="fu">write_dta</span>(DT, <span class="at">path =</span> <span class="st">&quot;swtDT.dta&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb49"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>haven<span class="sc">::</span><span class="fu">write_dta</span>(DT[, .(<span class="at">response_var =</span> <span class="fu">mean</span>(response_var), <span class="at">ssize =</span> .N), </span>
-<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>                    <span class="at">by =</span> .(cluster_var, first_treat, time_var)],</span>
-<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>                 <span class="at">path =</span> <span class="st">&quot;swtDTpanel.dta&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a>haven<span class="sc">::</span><span class="fu">write_dta</span>(DT[, .(<span class="at">response_var =</span> <span class="fu">mean</span>(response_var), <span class="at">ssize =</span> .N), </span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>                    <span class="at">by =</span> .(cluster_var, first_treat, time_var)],</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>                 <span class="at">path =</span> <span class="st">&quot;swtDTpanel.dta&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <section id="hussey-hughes" class="level2">
 <h2 class="anchored" data-anchor-id="hussey-hughes">Hussey &amp; Hughes</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb50"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
-<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a><span class="kw">xtlogit</span> response_var i.tx_fact i.time_fact, i(cluster_var) re</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb51"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a><span class="kw">xtlogit</span> response_var i.tx_fact i.time_fact, i(cluster_var) re</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Fitting comparison model:
 
@@ -10154,9 +10312,9 @@ LR test of rho=0: chibar2(01) = 290.64                 Prob &gt;= chibar2 = 0.00
 <section id="cluster-level-period-specific-effects" class="level2">
 <h2 class="anchored" data-anchor-id="cluster-level-period-specific-effects">Cluster-level period-specific effects</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb52"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
-<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>meqrlogit response_var i.tx_fact time_var || cluster_var: || time_var:</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb53"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>meqrlogit response_var i.tx_fact time_var || cluster_var: || time_var:</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Refining starting values: 
 
@@ -10214,9 +10372,9 @@ Note: LR test is conservative and provided only for reference.</code></pre>
 <section id="generalized-linear-model-with-robust-standard-errors-1" class="level2">
 <h2 class="anchored" data-anchor-id="generalized-linear-model-with-robust-standard-errors-1">Generalized Linear Model with Robust Standard Errors</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb54"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
-<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a><span class="kw">logit</span> response_var i.tx_fact i.time_fact, <span class="kw">cluster</span>(cluster_var)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb55"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a><span class="kw">logit</span> response_var i.tx_fact i.time_fact, <span class="kw">cluster</span>(cluster_var)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Iteration 0:  Log pseudolikelihood = -40574.737  
 Iteration 1:  Log pseudolikelihood = -39562.842  
@@ -10252,11 +10410,11 @@ response_var | Coefficient  std. err.      z    P&gt;|z|     [95% conf. interval
 <section id="generalized-estimating-equation-1" class="level2">
 <h2 class="anchored" data-anchor-id="generalized-estimating-equation-1">Generalized Estimating Equation</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb56"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
-<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a>xtset cluster_var</span>
-<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb56-5"><a href="#cb56-5" aria-hidden="true" tabindex="-1"></a><span class="kw">xtgee</span> response_var i.tx_fact i.time_fact, <span class="kw">family</span>(binomial) <span class="kw">link</span>(<span class="kw">logit</span>) <span class="fu">corr</span>(<span class="kw">exchangeable</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb57"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>xtset cluster_var</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a><span class="kw">xtgee</span> response_var i.tx_fact i.time_fact, <span class="kw">family</span>(binomial) <span class="kw">link</span>(<span class="kw">logit</span>) <span class="fu">corr</span>(<span class="kw">exchangeable</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Panel variable: cluster_var (balanced)
 
@@ -10297,12 +10455,12 @@ response_var | Coefficient  Std. err.      z    P&gt;|z|     [95% conf. interval
 <section id="hetergeneous-difference-in-differences" class="level2">
 <h2 class="anchored" data-anchor-id="hetergeneous-difference-in-differences">Hetergeneous Difference-in-Differences</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb58"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
-<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>hdidregress ra (response_var) (tx_var), <span class="fu">group</span>(cluster_var) <span class="co">///</span></span>
-<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a>  time(time_var) controlgroup(notyet)</span>
-<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a><span class="kw">estat</span> aggregation</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb59"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a>hdidregress ra (response_var) (tx_var), <span class="fu">group</span>(cluster_var) <span class="co">///</span></span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>  time(time_var) controlgroup(notyet)</span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a><span class="kw">estat</span> aggregation</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>note: variable _did_cohort, containing cohort indicators formed by treatment
       variable tx_var and group variable cluster_var, was added to the
@@ -10422,12 +10580,12 @@ response_var |       ATET   std. err.      z    P&gt;|z|     [95% conf. interval
 <section id="callaway-and-santanna-2021-difference-in-differences" class="level2">
 <h2 class="anchored" data-anchor-id="callaway-and-santanna-2021-difference-in-differences">Callaway and Sant’Anna (2021) Difference-in-Differences</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb60"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDTpanel.dta&quot;</span></span>
-<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a>csdid response_var, ivar(cluster_var) time(time_var) gvar(first_treat) <span class="co">///</span></span>
-<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>  notyet method(ipw) wboot rseed(05172024)</span>
-<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a><span class="kw">estat</span> <span class="ot">all</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb61"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDTpanel.dta&quot;</span></span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>csdid response_var, ivar(cluster_var) time(time_var) gvar(first_treat) <span class="co">///</span></span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>  notyet method(ipw) wboot rseed(05172024)</span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb61-6"><a href="#cb61-6" aria-hidden="true" tabindex="-1"></a><span class="kw">estat</span> <span class="ot">all</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>command csdid is unrecognized
 r(199);
@@ -10439,13 +10597,13 @@ r(199);</code></pre>
 <section id="permutation-test-for-treatment-effect-1" class="level2">
 <h2 class="anchored" data-anchor-id="permutation-test-for-treatment-effect-1">Permutation Test for Treatment Effect</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb62"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
-<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>* Run a within-period analysis <span class="kw">on</span> <span class="kw">cluster</span>-period-<span class="dv">level</span> outcomes to calculate a risk difference</span>
-<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb62-5"><a href="#cb62-5" aria-hidden="true" tabindex="-1"></a>swpermute <span class="fu">r</span>(mu_2) - <span class="fu">r</span>(mu_1), intervention(tx_var) period(time_fact) <span class="co">///</span></span>
-<span id="cb62-6"><a href="#cb62-6" aria-hidden="true" tabindex="-1"></a>  <span class="kw">cluster</span>(cluster_var) withinperiod weightperiod(<span class="kw">variance</span> <span class="fu">r</span>(se)^2) <span class="co">///</span></span>
-<span id="cb62-7"><a href="#cb62-7" aria-hidden="true" tabindex="-1"></a>  reps(100): <span class="kw">ttest</span> response_var, <span class="kw">by</span>(tx_var)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb63"><pre class="sourceCode stata code-with-copy"><code class="sourceCode stata"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="kw">use</span> <span class="st">&quot;swtDT.dta&quot;</span></span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb63-3"><a href="#cb63-3" aria-hidden="true" tabindex="-1"></a>* Run a within-period analysis <span class="kw">on</span> <span class="kw">cluster</span>-period-<span class="dv">level</span> outcomes to calculate a risk difference</span>
+<span id="cb63-4"><a href="#cb63-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb63-5"><a href="#cb63-5" aria-hidden="true" tabindex="-1"></a>swpermute <span class="fu">r</span>(mu_2) - <span class="fu">r</span>(mu_1), intervention(tx_var) period(time_fact) <span class="co">///</span></span>
+<span id="cb63-6"><a href="#cb63-6" aria-hidden="true" tabindex="-1"></a>  <span class="kw">cluster</span>(cluster_var) withinperiod weightperiod(<span class="kw">variance</span> <span class="fu">r</span>(se)^2) <span class="co">///</span></span>
+<span id="cb63-7"><a href="#cb63-7" aria-hidden="true" tabindex="-1"></a>  reps(100): <span class="kw">ttest</span> response_var, <span class="kw">by</span>(tx_var)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Warning: time_fact = 1 not included in analysis. Clusters all in one condition
 
